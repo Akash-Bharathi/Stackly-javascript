@@ -59,7 +59,7 @@
             grade: grade
         };
     }
-    let result = generateResult("Alice", [85, 92, 78]);
+    let result = generateResult("Akash", [85, 92, 78]);
     console.log(result);
     
 
@@ -342,4 +342,5 @@ function example() {
     console.log(y); // ReferenceError: Cannot access 'y' before initialization
     let y = 20;
     console.log(y); // Output: 20
+
 }
